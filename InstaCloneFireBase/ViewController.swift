@@ -18,7 +18,21 @@ class ViewController: UIViewController {
     }
 
     @IBAction func signInClicked(_ sender: Any) {
-        performSegue(withIdentifier: "toFeedVc", sender: nil)
+        if emailText.text != "" && passwordText.text != ""{
+            Auth.auth().signIn(withEmail: emailText.text!, password: passwordText.text!) { (authdata, error) in
+                if error != nil{
+                    self.makeAlert(nameInput: "Error", messageInput: error?.localizedDescription ?? "Error3")
+                }else {
+                    self.performSegue(withIdentifier: "toFeedVc", sender: nil)
+                    
+                }
+        }
+        
+        
+        }else{
+            makeAlert(nameInput: "Error", messageInput: "Error2")
+        }
+        
     }
     
     @IBAction func signUpClicked(_ sender: Any) {
