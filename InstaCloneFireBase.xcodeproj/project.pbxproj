@@ -17,6 +17,7 @@
 		FF0D5AE42728152D00E4B20B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D5AE32728152D00E4B20B /* FeedViewController.swift */; };
 		FF0D5AE62728154400E4B20B /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D5AE52728154400E4B20B /* UploadViewController.swift */; };
 		FF0D5AE82728155800E4B20B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D5AE72728155800E4B20B /* SettingsViewController.swift */; };
+		FF0D5AEC2728AC1100E4B20B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0D5AEB2728AC1100E4B20B /* FeedCell.swift */; };
 		FFD8EC3F2727F33E0003FEA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFD8EC3E2727F33E0003FEA9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		FF0D5AE32728152D00E4B20B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		FF0D5AE52728154400E4B20B /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		FF0D5AE72728155800E4B20B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FF0D5AEB2728AC1100E4B20B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		FFD8EC3E2727F33E0003FEA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +101,7 @@
 				FF0D5AE32728152D00E4B20B /* FeedViewController.swift */,
 				FF0D5AE52728154400E4B20B /* UploadViewController.swift */,
 				FF0D5AE72728155800E4B20B /* SettingsViewController.swift */,
+				FF0D5AEB2728AC1100E4B20B /* FeedCell.swift */,
 			);
 			path = InstaCloneFireBase;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0D5AEC2728AC1100E4B20B /* FeedCell.swift in Sources */,
 				FF0C56DF2727F1C100B87538 /* ViewController.swift in Sources */,
 				FF0D5AE62728154400E4B20B /* UploadViewController.swift in Sources */,
 				FF0C56DB2727F1C100B87538 /* AppDelegate.swift in Sources */,

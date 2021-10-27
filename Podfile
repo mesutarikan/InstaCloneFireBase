@@ -9,6 +9,7 @@ pod 'Firebase/Firestore'
 pod 'FirebaseFirestoreSwift'
 pod 'Firebase/Storage'
 pod 'Firebase/Analytics'
+pod 'SDWebImage', '~> 5.0'
 
   # Pods for InstaCloneFireBase
 
